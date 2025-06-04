@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Epilepsy Sans</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Рецепт</string>
+  </property>
+  <widget class="QPushButton" name="exit_button">
+   <property name="geometry">
+    <rect>
+     <x>1372</x>
+     <y>140</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>350</y>
+     <width>421</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>165</red>
+         <green>46</green>
+         <blue>67</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>165</red>
+         <green>46</green>
+         <blue>67</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="tabChangesFocus">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="plainText">
+    <string>1. Вымыть лимон, мелкой тёркой снять цедру, разрезать пополам и выжать сок (100 мл) без косточек. 
+2. Смазать форму маслом, застелить бумагой для выпечки 
+3.  Разогреть духовку до 180°С. 
+4. Размягчить масло при комнатной температуре. Смешать 280 г муки с сахарной пудрой и половиной цедры в плоской миске. Положить масло и при помощи вилки смешать с мучной смесью, чтобы получились крошки. 
+5. Выложить получившиеся крошки в форму ровным слоем. Поставить форму в разогретую духовку и выпекать до золотистого цвета, 20–25 минут.  
+6. Пока основа запекается, взбить яйца с сахаром в пышную пену, добавить оставшуюся лимонную цедру и сок, а также смесь разрыхлителя и оставшейся муки.
+7. Взбить до однородности. 
+8. Залить получившейся смесью горячую основу. Вернуть в духовку и запекать, пока не пропечётся центр верхнего слоя, примерно 25 минут.  
+Остудить и нарезать на квадратики.</string>
+   </property>
+   <property name="centerOnScroll">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-6</x>
+     <y>-5</y>
+     <width>1931</width>
+     <height>1091</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>lemon pastry.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>exit_button</zorder>
+  <zorder>plainTextEdit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
